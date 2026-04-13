@@ -21,6 +21,7 @@
 #define SCREENSHOTVIEW_H
 
 #include <QQuickView>
+#include <QVariantMap>
 
 class ScreenshotView : public QQuickView
 {
@@ -37,6 +38,12 @@ public:
     Q_INVOKABLE void copyToClipboard(QRect rect);
 
     void removeTmpFile();
+
+private:
+    void grabViaPortal();
+
+private slots:
+    void onPortalResponse(uint response, const QVariantMap &results);
 
 signals:
     void refresh();

@@ -4,12 +4,12 @@
 <context>
     <name>ScreenshotView</name>
     <message>
-        <location filename="../src/screenshotview.cpp" line="96"/>
+        <location filename="../src/screenshotview.cpp" line="170"/>
         <source>The picture has been saved to %1</source>
         <translation>Ảnh này được lưu vào %1</translation>
     </message>
     <message>
-        <location filename="../src/screenshotview.cpp" line="127"/>
+        <location filename="../src/screenshotview.cpp" line="214"/>
         <source>The picture has been saved to the clipboard</source>
         <translation>Ảnh chụp màn hình này đã được lưu vào bộ nhớ tạm</translation>
     </message>

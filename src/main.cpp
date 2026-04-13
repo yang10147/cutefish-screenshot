@@ -22,6 +22,7 @@
 #include <QCommandLineOption>
 #include <QCommandLineParser>
 #include <QTranslator>
+#include <QFile>
 #include <QLocale>
 
 #include "screenshotview.h"

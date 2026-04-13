@@ -17,12 +17,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.12
-import QtQuick.Window 2.12
-import QtQuick.Controls 2.12
-import QtQuick.Layouts 1.12
-import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import QtQuick
+import QtQuick.Window
+import QtQuick.Controls
+import QtQuick.Layouts
 
 Item {
     id: control
@@ -32,45 +30,47 @@ Item {
     property rect cropRect
     property bool cropping: false
 
+    // 常量替代 FishUI.Units
+    readonly property int smallSpacing: 4
+    readonly property int largeSpacing: 8
+    readonly property int smallRadius: 4
+    readonly property color highlightColor: "#3daee9"
+
     Keys.enabled: true
     Keys.onEscapePressed: view.quit()
 
     Keys.onLeftPressed: {
         if (selectLayer.visible) {
-            var newX =  selectLayer.x -= 10
+            var newX = selectLayer.x - 10
             if (newX < control.x)
                 newX = control.x
-
             selectLayer.x = newX
         }
     }
 
     Keys.onRightPressed: {
         if (selectLayer.visible) {
-            var newX =  selectLayer.x += 10
+            var newX = selectLayer.x + 10
             if (newX > control.width - selectLayer.width)
                 newX = control.width - selectLayer.width
-
             selectLayer.x = newX
         }
     }
 
     Keys.onUpPressed: {
         if (selectLayer.visible) {
-            var newY = selectLayer.y -= 10
+            var newY = selectLayer.y - 10
             if (newY < control.y)
                 newY = control.y
-
             selectLayer.y = newY
         }
     }
 
     Keys.onDownPressed: {
         if (selectLayer.visible) {
-            var newY = selectLayer.y += 10
+            var newY = selectLayer.y + 10
             if (newY > control.height - selectLayer.height)
                 newY = control.height - selectLayer.height
-
             selectLayer.y = newY
         }
     }
@@ -155,7 +155,7 @@ Item {
             anchors.fill: parent
             color: "transparent"
             border.width: 2
-            border.color: FishUI.Theme.highlightColor
+            border.color: control.highlightColor
         }
 
         DragHandler {
@@ -183,33 +183,27 @@ Item {
         id: sizeToolTip
         visible: selectLayer.visible && selectLayer.width > 1 && selectLayer.height > 1
 
-        width: sizeLabel.implicitWidth + FishUI.Units.largeSpacing
-        height: sizeLabel.implicitHeight + FishUI.Units.largeSpacing
+        width: sizeLabel.implicitWidth + control.largeSpacing
+        height: sizeLabel.implicitHeight + control.largeSpacing
 
         z: 999
         x: selectLayer.x
         y: {
-            var newY = selectLayer.y - sizeToolTip.height - FishUI.Units.smallSpacing
-
+            var newY = selectLayer.y - sizeToolTip.height - control.smallSpacing
             if (newY < control.y)
                 newY = control.y
-
             return newY
         }
 
-        radius: FishUI.Theme.smallRadius
-
-        color: Qt.rgba(FishUI.Theme.backgroundColor.r,
-                       FishUI.Theme.backgroundColor.g,
-                       FishUI.Theme.backgroundColor.b, 0.9)
+        radius: control.smallRadius
+        color: Qt.rgba(0.15, 0.15, 0.15, 0.9)
         border.width: 1
-        border.color: Qt.rgba(FishUI.Theme.textColor.r,
-                               FishUI.Theme.textColor.g,
-                               FishUI.Theme.textColor.b, 0.15)
+        border.color: Qt.rgba(1, 1, 1, 0.15)
 
         Label {
             id: sizeLabel
             anchors.centerIn: parent
+            color: "white"
             text: "%1 * %2".arg(parseInt(selectLayer.width)).arg(parseInt(selectLayer.height))
         }
     }
@@ -217,44 +211,32 @@ Item {
     Rectangle {
         id: tools
 
-        width: toolsLayout.implicitWidth + FishUI.Units.largeSpacing
-        height: 36 + FishUI.Units.smallSpacing
+        width: toolsLayout.implicitWidth + control.largeSpacing
+        height: 36 + control.smallSpacing
 
         visible: selectLayer.visible && selectLayer.width > 1 && selectLayer.height > 1
         z: 999
 
-        // 放在右侧
         x: {
             var newX = selectLayer.x + selectLayer.width - tools.width
-
-            if (newX < control.x) {
+            if (newX < control.x)
                 return control.x
-            }
-
             return newX
         }
 
         y: {
             var newY = 0
-
-//            if (selectLayer.y <= control.y
-//                    && selectLayer.height + tools.height >= control.height)
-//                newY = control.height - tools.height
-
-            // 选中区域与工具栏高度大于总高度
-            if (selectLayer.y + selectLayer.height + tools.height + FishUI.Units.smallSpacing >= control.height) {
-                newY = selectLayer.y - tools.height - FishUI.Units.smallSpacing
+            if (selectLayer.y + selectLayer.height + tools.height + control.smallSpacing >= control.height) {
+                newY = selectLayer.y - tools.height - control.smallSpacing
             } else {
-                newY = selectLayer.y + selectLayer.height + FishUI.Units.smallSpacing
+                newY = selectLayer.y + selectLayer.height + control.smallSpacing
             }
-
             if (newY < control.y || newY > control.y + control.height)
                 newY = control.height - tools.height
-
             return newY
         }
 
-        radius: FishUI.Theme.smallRadius
+        radius: control.smallRadius
         color: "white"
 
         MouseArea {
@@ -264,28 +246,27 @@ Item {
         RowLayout {
             id: toolsLayout
             anchors.fill: parent
-
-            anchors.leftMargin: FishUI.Units.smallSpacing
-            anchors.rightMargin: FishUI.Units.smallSpacing
-            anchors.topMargin: FishUI.Units.smallSpacing / 2
-            anchors.bottomMargin: FishUI.Units.smallSpacing / 2
+            anchors.leftMargin: control.smallSpacing
+            anchors.rightMargin: control.smallSpacing
+            anchors.topMargin: control.smallSpacing / 2
+            anchors.bottomMargin: control.smallSpacing / 2
 
             ImageButton {
-                iconMargins: FishUI.Units.largeSpacing
+                iconMargins: control.largeSpacing
                 size: 36
                 source: "qrc:/images/save.svg"
                 onClicked: control.save()
             }
 
             ImageButton {
-                iconMargins: FishUI.Units.largeSpacing
+                iconMargins: control.largeSpacing
                 size: 36
                 source: "qrc:/images/cancel.svg"
                 onClicked: view.quit()
             }
 
             ImageButton {
-                iconMargins: FishUI.Units.largeSpacing
+                iconMargins: control.largeSpacing
                 size: 36
                 source: "qrc:/images/ok.svg"
                 onClicked: control.copyToClipboard()
@@ -293,7 +274,7 @@ Item {
         }
     }
 
-    // Global
+    // Global mouse area for selection
     MouseArea {
         id: mouseArea
         anchors.fill: parent

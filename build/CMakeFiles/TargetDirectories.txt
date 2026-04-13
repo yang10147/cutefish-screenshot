@@ -1,0 +1,10 @@
+/home/yong/cutefish-screenshot/build/CMakeFiles/cutefish-screenshot.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/translations.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/edit_cache.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/rebuild_cache.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/list_install_components.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/install.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/install/local.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/install/strip.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/cutefish-screenshot_autogen_timestamp_deps.dir
+/home/yong/cutefish-screenshot/build/CMakeFiles/cutefish-screenshot_autogen.dir

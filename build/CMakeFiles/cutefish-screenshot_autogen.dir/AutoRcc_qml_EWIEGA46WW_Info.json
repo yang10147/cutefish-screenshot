@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "/home/yong/cutefish-screenshot/build/cutefish-screenshot_autogen",
+	"CMAKE_BINARY_DIR" : "/home/yong/cutefish-screenshot/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/yong/cutefish-screenshot/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/yong/cutefish-screenshot",
+	"CMAKE_SOURCE_DIR" : "/home/yong/cutefish-screenshot",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/yong/cutefish-screenshot/build/cutefish-screenshot_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/yong/cutefish-screenshot/images/cancel.svg",
+		"/home/yong/cutefish-screenshot/images/ok.svg",
+		"/home/yong/cutefish-screenshot/images/save.svg",
+		"/home/yong/cutefish-screenshot/qml/ImageButton.qml",
+		"/home/yong/cutefish-screenshot/qml/main.qml"
+	],
+	"LOCK_FILE" : "/home/yong/cutefish-screenshot/build/CMakeFiles/cutefish-screenshot_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/yong/cutefish-screenshot/build/CMakeFiles/cutefish-screenshot_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/yong/cutefish-screenshot/qml.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
