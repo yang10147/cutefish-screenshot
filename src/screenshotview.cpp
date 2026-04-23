@@ -1,32 +1,13 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
- *
- * Author:     Reion Wong <reionwong@gmail.com>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 #include "screenshotview.h"
 
 #include <QClipboard>
 #include <QEventLoop>
 #include <QTimer>
 #include <QFile>
+#include <QDir>
 #include <QUrl>
 #include <QImage>
 #include <QProcess>
-#include <QBuffer>
 
 #include <QGuiApplication>
 #include <QQmlContext>
@@ -40,13 +21,16 @@
 #include <QDBusPendingCall>
 #include <QDBusPendingCallWatcher>
 #include <QDBusPendingReply>
+#include <QDBusUnixFileDescriptor>
+
+#include <unistd.h>
+#include <fcntl.h>
 
 ScreenshotView::ScreenshotView(QQuickView *parent)
     : QQuickView(parent)
 {
     rootContext()->setContextProperty("view", this);
-
-    setFlags(Qt::FramelessWindowHint);
+    setFlags(Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint);
     setScreen(qGuiApp->primaryScreen());
     setResizeMode(QQuickView::SizeRootObjectToView);
     setSource(QUrl("qrc:/qml/main.qml"));
@@ -55,86 +39,102 @@ ScreenshotView::ScreenshotView(QQuickView *parent)
 
 void ScreenshotView::start()
 {
-    grabViaPortal();
+    grabViaKWin();
 }
 
-void ScreenshotView::grabViaPortal()
+void ScreenshotView::grabViaKWin()
 {
-    QDBusInterface portal("org.freedesktop.portal.Desktop",
-                          "/org/freedesktop/portal/desktop",
-                          "org.freedesktop.portal.Screenshot",
-                          QDBusConnection::sessionBus());
+    int pipeFds[2];
+    if (pipe2(pipeFds, O_CLOEXEC) != 0) {
+        qWarning() << "Failed to create pipe";
+        quit();
+        return;
+    }
 
-    if (!portal.isValid()) {
-        qWarning() << "org.freedesktop.portal.Screenshot not available";
+    int readFd  = pipeFds[0];
+    int writeFd = pipeFds[1];
+
+    QDBusInterface kwin("org.kde.KWin.ScreenShot2",
+                        "/org/kde/KWin/ScreenShot2",
+                        "org.kde.KWin.ScreenShot2",
+                        QDBusConnection::sessionBus());
+
+    if (!kwin.isValid()) {
+        qWarning() << "KWin.ScreenShot2 not available";
+        ::close(readFd);
+        ::close(writeFd);
         quit();
         return;
     }
 
     QVariantMap options;
-    options["interactive"] = false;
-    options["modal"] = false;
+    options["native-resolution"] = true;
 
-    QDBusPendingCall call = portal.asyncCall("Screenshot", QString(""), options);
+    // kind=0: 交互式（点击选窗口）
+    uint kind = 0;
+
+    QDBusUnixFileDescriptor dbusWriteFd(writeFd);
+
+    // 启动读线程（阻塞读，等 KWin 写完关闭写端）
+    PipeReader *reader = new PipeReader(readFd, this);
+
+    QDBusPendingCall call = kwin.asyncCall(
+        "CaptureInteractive",
+        kind,
+        options,
+        QVariant::fromValue(dbusWriteFd)
+    );
+
+    // 我们这边关掉写端（KWin 持有写端的副本，会在截图完成后关闭）
+    ::close(writeFd);
+
+    // 启动读线程
+    reader->start();
+
     QDBusPendingCallWatcher *watcher = new QDBusPendingCallWatcher(call, this);
 
     connect(watcher, &QDBusPendingCallWatcher::finished, this,
-            [this](QDBusPendingCallWatcher *w) {
+            [this, reader](QDBusPendingCallWatcher *w) {
         w->deleteLater();
 
-        QDBusPendingReply<QDBusObjectPath> reply = *w;
+        QDBusPendingReply<QVariantMap> reply = *w;
         if (reply.isError()) {
-            qWarning() << "Screenshot portal call error:" << reply.error().message();
+            qWarning() << "KWin ScreenShot2 error:" << reply.error().message();
+            reader->wait();
+            reader->deleteLater();
             quit();
             return;
         }
 
-        QString requestPath = reply.value().path();
+        // 等读线程读完所有数据
+        reader->wait();
+        QByteArray pngData = reader->data();
+        reader->deleteLater();
 
-        QDBusConnection::sessionBus().connect(
-            "org.freedesktop.portal.Desktop",
-            requestPath,
-            "org.freedesktop.portal.Request",
-            "Response",
-            this,
-            SLOT(onPortalResponse(uint,QVariantMap))
-        );
+        if (pngData.isEmpty()) {
+            qWarning() << "KWin returned empty screenshot data";
+            quit();
+            return;
+        }
+
+        QFile::remove("/tmp/cutefish-screenshot.png");
+        QFile tmp("/tmp/cutefish-screenshot.png");
+        if (tmp.open(QIODevice::WriteOnly)) {
+            tmp.write(pngData);
+            tmp.close();
+        }
+
+        setVisible(true);
+        setKeyboardGrabEnabled(true);
+        emit refresh();
     });
-}
-
-void ScreenshotView::onPortalResponse(uint response, const QVariantMap &results)
-{
-    if (response != 0) {
-        quit();
-        return;
-    }
-
-    QString uri = results.value("uri").toString();
-    if (uri.isEmpty()) {
-        qWarning() << "Portal returned empty URI";
-        quit();
-        return;
-    }
-
-    QString localPath = QUrl(uri).toLocalFile();
-
-    QFile::remove("/tmp/cutefish-screenshot.png");
-    if (localPath != "/tmp/cutefish-screenshot.png") {
-        QFile::copy(localPath, "/tmp/cutefish-screenshot.png");
-        QFile::remove(localPath);
-    }
-
-    setVisible(true);
-    setKeyboardGrabEnabled(true);
-    emit refresh();
 }
 
 void ScreenshotView::delay(int value)
 {
     QEventLoop waitLoop;
-    QTimer::singleShot(value * 1000, &waitLoop, &QEventLoop::quit);
+    QTimer::singleShot(value, &waitLoop, &QEventLoop::quit);
     waitLoop.exec();
-
     start();
 }
 
@@ -147,9 +147,12 @@ void ScreenshotView::saveFile(QRect rect)
 {
     setVisible(false);
 
-    QString desktopPath = QStandardPaths::writableLocation(QStandardPaths::DesktopLocation);
-    QString fileName = QString("%1/Screenshot_%2.png")
-                              .arg(desktopPath)
+    QString picPath = QStandardPaths::writableLocation(QStandardPaths::PicturesLocation);
+    QString saveDir = picPath + "/屏幕截图";
+    QDir().mkpath(saveDir);
+
+    QString fileName = QString("%1/屏幕截图_%2.png")
+                              .arg(saveDir)
                               .arg(QDateTime::currentDateTime().toString("yyyyMMdd_hhmmss"));
 
     QImage image("/tmp/cutefish-screenshot.png");
@@ -163,14 +166,9 @@ void ScreenshotView::saveFile(QRect rect)
                              QDBusConnection::sessionBus());
         if (iface.isValid()) {
             QList<QVariant> args;
-            args << "cutefish-screenshot";
-            args << ((unsigned int) 0);
-            args << "cutefish-screenshot";
-            args << "";
-            args << tr("The picture has been saved to %1").arg(fileName);
-            args << QStringList();
-            args << QVariantMap();
-            args << (int) 10;
+            args << "cutefish-screenshot" << (uint)0 << "cutefish-screenshot"
+                 << "" << tr("The picture has been saved to %1").arg(fileName)
+                 << QStringList() << QVariantMap() << (int)10;
             iface.asyncCallWithArgumentList("Notify", args);
         }
     }
@@ -183,44 +181,30 @@ void ScreenshotView::copyToClipboard(QRect rect)
 {
     setVisible(false);
 
-    // 裁剪图片保存到临时文件
     QImage image("/tmp/cutefish-screenshot.png");
     QImage cropped = image.copy(rect);
     QString tmpPath = "/tmp/cutefish-screenshot-clip.png";
     cropped.save(tmpPath);
 
-    // 用 wl-copy 写入 Wayland 剪贴板
-    // wl-copy 会保持后台运行直到剪贴板被其他程序覆盖，不会因为本进程退出而丢失
     QProcess *proc = new QProcess();
     proc->setStandardInputFile(tmpPath);
     proc->start("wl-copy", {"--type", "image/png"});
-
-    // 不等待 wl-copy 退出，让它在后台保持剪贴板内容
-    // 连接 finished 信号只是为了清理 QProcess 对象
     QObject::connect(proc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished),
                      proc, &QProcess::deleteLater);
 
-    // 发送通知
     QDBusInterface iface("org.freedesktop.Notifications",
                          "/org/freedesktop/Notifications",
                          "org.freedesktop.Notifications",
                          QDBusConnection::sessionBus());
     if (iface.isValid()) {
         QList<QVariant> args;
-        args << "cutefish-screenshot";
-        args << ((unsigned int) 0);
-        args << "cutefish-screenshot";
-        args << "";
-        args << tr("The picture has been saved to the clipboard");
-        args << QStringList();
-        args << QVariantMap();
-        args << (int) 10;
+        args << "cutefish-screenshot" << (uint)0 << "cutefish-screenshot"
+             << "" << tr("The picture has been saved to the clipboard")
+             << QStringList() << QVariantMap() << (int)10;
         iface.asyncCallWithArgumentList("Notify", args);
     }
 
     removeTmpFile();
-
-    // 稍等 wl-copy 启动完成再退出
     QTimer::singleShot(500, qGuiApp, &QGuiApplication::quit);
 }
 

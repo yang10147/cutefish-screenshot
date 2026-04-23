@@ -9,7 +9,7 @@
         <translation>Voapetraka any amin&apos;ny %1 ilay sary</translation>
     </message>
     <message>
-        <location filename="../src/screenshotview.cpp" line="214"/>
+        <location filename="../src/screenshotview.cpp" line="202"/>
         <source>The picture has been saved to the clipboard</source>
         <translation>Voarakitra ao anaty &quot;presse-papiers&quot; ilay sary</translation>
     </message>

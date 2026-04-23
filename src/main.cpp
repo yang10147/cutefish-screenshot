@@ -38,10 +38,8 @@ int main(int argc, char *argv[])
     parser.addOption(delayOption);
     parser.process(app);
 
-    if (!QDBusConnection::sessionBus().registerService("com.cutefish.Screenshot")) {
-        app.exit();
-        return 0;
-    }
+    // 允许替换已有服务，避免第二次点击时因服务已注册而直接退出
+    QDBusConnection::sessionBus().registerService("com.cutefish.Screenshot");
 
     QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cutefish-screenshot/translations/").arg(QLocale::system().name());
     if (QFile::exists(qmFilePath)) {

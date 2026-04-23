@@ -9,7 +9,7 @@
         <translation>画像は %1に保存されました</translation>
     </message>
     <message>
-        <location filename="../src/screenshotview.cpp" line="214"/>
+        <location filename="../src/screenshotview.cpp" line="202"/>
         <source>The picture has been saved to the clipboard</source>
         <translation>画像はクリップボードに保存されました</translation>
     </message>

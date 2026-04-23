@@ -9,7 +9,7 @@
         <translation>Slika je sacuvana u %1</translation>
     </message>
     <message>
-        <location filename="../src/screenshotview.cpp" line="214"/>
+        <location filename="../src/screenshotview.cpp" line="202"/>
         <source>The picture has been saved to the clipboard</source>
         <translation>Slika je sačuvana u clipboard</translation>
     </message>

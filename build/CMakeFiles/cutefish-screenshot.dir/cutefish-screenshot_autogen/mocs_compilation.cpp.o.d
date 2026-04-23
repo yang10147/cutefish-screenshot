@@ -397,6 +397,16 @@ CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/mocs_compilation.
  /usr/include/qt6/QtQml/qqmlerror.h /usr/include/qt6/QtCore/QVariantMap \
  /usr/include/qt6/QtCore/qvariantmap.h /usr/include/qt6/QtCore/QMap \
  /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/QString \
- /usr/include/qt6/QtCore/qtmochelpers.h \
+ /usr/include/qt6/QtCore/QThread /usr/include/qt6/QtCore/qthread.h \
+ /usr/include/c++/15.2.1/future /usr/include/c++/15.2.1/mutex \
+ /usr/include/c++/15.2.1/bits/std_mutex.h \
+ /usr/include/c++/15.2.1/bits/unique_lock.h \
+ /usr/include/c++/15.2.1/condition_variable \
+ /usr/include/c++/15.2.1/bits/atomic_futex.h \
+ /usr/include/c++/15.2.1/bits/std_thread.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/qt6/QtCore/qtmochelpers.h \
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h

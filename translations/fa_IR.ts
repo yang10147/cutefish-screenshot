@@ -9,7 +9,7 @@
         <translation>تصویر در %1 ذخیره شد</translation>
     </message>
     <message>
-        <location filename="../src/screenshotview.cpp" line="214"/>
+        <location filename="../src/screenshotview.cpp" line="202"/>
         <source>The picture has been saved to the clipboard</source>
         <translation>تصویر در کلیپ بورد کپی شد</translation>
     </message>

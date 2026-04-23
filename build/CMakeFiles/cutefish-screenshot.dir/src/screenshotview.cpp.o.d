@@ -396,11 +396,22 @@ CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.o: \
  /usr/include/qt6/QtQml/qqmlerror.h /usr/include/qt6/QtCore/QVariantMap \
  /usr/include/qt6/QtCore/qvariantmap.h /usr/include/qt6/QtCore/QMap \
  /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/QString \
- /usr/include/qt6/QtGui/QClipboard /usr/include/qt6/QtGui/qclipboard.h \
- /usr/include/qt6/QtCore/QEventLoop /usr/include/qt6/QtCore/QTimer \
- /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtCore/QFile \
- /usr/include/qt6/QtCore/qfile.h /usr/include/qt6/QtCore/qfiledevice.h \
- /usr/include/c++/15.2.1/filesystem /usr/include/c++/15.2.1/bits/fs_fwd.h \
+ /usr/include/qt6/QtCore/QThread /usr/include/qt6/QtCore/qthread.h \
+ /usr/include/c++/15.2.1/future /usr/include/c++/15.2.1/mutex \
+ /usr/include/c++/15.2.1/bits/std_mutex.h \
+ /usr/include/c++/15.2.1/bits/unique_lock.h \
+ /usr/include/c++/15.2.1/condition_variable \
+ /usr/include/c++/15.2.1/bits/atomic_futex.h \
+ /usr/include/c++/15.2.1/bits/std_thread.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/qt6/QtGui/QClipboard \
+ /usr/include/qt6/QtGui/qclipboard.h /usr/include/qt6/QtCore/QEventLoop \
+ /usr/include/qt6/QtCore/QTimer /usr/include/qt6/QtCore/qtimer.h \
+ /usr/include/qt6/QtCore/QFile /usr/include/qt6/QtCore/qfile.h \
+ /usr/include/qt6/QtCore/qfiledevice.h /usr/include/c++/15.2.1/filesystem \
+ /usr/include/c++/15.2.1/bits/fs_fwd.h \
  /usr/include/c++/15.2.1/bits/fs_path.h /usr/include/c++/15.2.1/locale \
  /usr/include/c++/15.2.1/bits/locale_facets.h \
  /usr/include/c++/15.2.1/cwctype /usr/include/wctype.h \
@@ -424,10 +435,12 @@ CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.o: \
  /usr/include/c++/15.2.1/bits/istream.tcc \
  /usr/include/c++/15.2.1/bits/sstream.tcc /usr/include/c++/15.2.1/codecvt \
  /usr/include/c++/15.2.1/bits/fs_dir.h \
- /usr/include/c++/15.2.1/bits/fs_ops.h /usr/include/qt6/QtCore/QUrl \
- /usr/include/qt6/QtGui/QImage /usr/include/qt6/QtCore/QProcess \
- /usr/include/qt6/QtCore/qprocess.h /usr/include/qt6/QtCore/QBuffer \
- /usr/include/qt6/QtCore/qbuffer.h /usr/include/qt6/QtGui/QGuiApplication \
+ /usr/include/c++/15.2.1/bits/fs_ops.h /usr/include/qt6/QtCore/QDir \
+ /usr/include/qt6/QtCore/qdir.h /usr/include/qt6/QtCore/qdirlisting.h \
+ /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
+ /usr/include/qt6/QtCore/QUrl /usr/include/qt6/QtGui/QImage \
+ /usr/include/qt6/QtCore/QProcess /usr/include/qt6/QtCore/qprocess.h \
+ /usr/include/qt6/QtGui/QGuiApplication \
  /usr/include/qt6/QtQml/QQmlContext /usr/include/qt6/QtQml/qqmlcontext.h \
  /usr/include/qt6/QtGui/QScreen /usr/include/qt6/QtGui/QPixmap \
  /usr/include/qt6/QtCore/QStandardPaths \
@@ -448,4 +461,10 @@ CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.o: \
  /usr/include/qt6/QtDBus/QDBusPendingCallWatcher \
  /usr/include/qt6/QtDBus/QDBusPendingReply \
  /usr/include/qt6/QtDBus/qdbuspendingreply.h \
- /usr/include/qt6/QtDBus/qdbusargument.h
+ /usr/include/qt6/QtDBus/qdbusargument.h \
+ /usr/include/qt6/QtDBus/QDBusUnixFileDescriptor \
+ /usr/include/qt6/QtDBus/qdbusunixfiledescriptor.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/types/struct_iovec.h /usr/include/linux/falloc.h \
+ /usr/include/linux/openat2.h /usr/include/bits/openat2.h \
+ /usr/include/bits/stat.h /usr/include/bits/struct_stat.h

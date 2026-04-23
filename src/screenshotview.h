@@ -1,27 +1,34 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
- *
- * Author:     Reion Wong <reionwong@gmail.com>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 #ifndef SCREENSHOTVIEW_H
 #define SCREENSHOTVIEW_H
 
 #include <QQuickView>
 #include <QVariantMap>
+#include <QThread>
+#include <unistd.h>
+
+// 在独立线程里阻塞读 pipe，避免主线程卡死
+class PipeReader : public QThread
+{
+    Q_OBJECT
+public:
+    explicit PipeReader(int fd, QObject *parent = nullptr)
+        : QThread(parent), m_fd(fd) {}
+
+    QByteArray data() const { return m_data; }
+
+protected:
+    void run() override {
+        char buf[65536];
+        ssize_t n;
+        while ((n = ::read(m_fd, buf, sizeof(buf))) > 0)
+            m_data.append(buf, n);
+        ::close(m_fd);
+    }
+
+private:
+    int m_fd;
+    QByteArray m_data;
+};
 
 class ScreenshotView : public QQuickView
 {
@@ -40,10 +47,7 @@ public:
     void removeTmpFile();
 
 private:
-    void grabViaPortal();
-
-private slots:
-    void onPortalResponse(uint response, const QVariantMap &results);
+    void grabViaKWin();
 
 signals:
     void refresh();

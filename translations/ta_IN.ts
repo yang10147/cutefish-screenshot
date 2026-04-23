@@ -9,7 +9,7 @@
         <translation>படம் %1 என சேமிக்கப்பட்டுள்ளது</translation>
     </message>
     <message>
-        <location filename="../src/screenshotview.cpp" line="214"/>
+        <location filename="../src/screenshotview.cpp" line="202"/>
         <source>The picture has been saved to the clipboard</source>
         <translation>படம் கிளிப்போர்டில் சேமிக்கப்பட்டுள்ளது</translation>
     </message>

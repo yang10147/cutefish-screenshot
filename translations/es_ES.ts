@@ -9,7 +9,7 @@
         <translation>La imagen ha sido guardada en %1</translation>
     </message>
     <message>
-        <location filename="../src/screenshotview.cpp" line="214"/>
+        <location filename="../src/screenshotview.cpp" line="202"/>
         <source>The picture has been saved to the clipboard</source>
         <translation>La imagen ha sido guardada en el portapapeles</translation>
     </message>
