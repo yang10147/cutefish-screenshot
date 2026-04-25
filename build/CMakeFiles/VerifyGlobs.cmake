@@ -375,6 +375,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/yong/cutefish-screenshot/*.cpp")
 set(OLD_GLOB
   "/home/yong/cutefish-screenshot/build/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/home/yong/cutefish-screenshot/build/CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/home/yong/cutefish-screenshot/build/cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp"
   "/home/yong/cutefish-screenshot/build/cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp"
   "/home/yong/cutefish-screenshot/build/cutefish-screenshot_autogen/mocs_compilation.cpp"

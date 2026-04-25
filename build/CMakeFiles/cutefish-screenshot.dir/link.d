@@ -97,6 +97,8 @@ cutefish-screenshot: \
   /usr/lib/libbrotlicommon.so.1 \
   /usr/lib/libproxy/libpxbackend-1.0.so \
   /usr/lib/libgobject-2.0.so.0 \
+  /usr/lib32/libbrotlienc.so.1 \
+  /usr/lib/libbrotlienc.so.1 \
   /usr/lib32/libicudata.so.78 \
   /usr/lib/libicudata.so.78 \
   /usr/lib32/libgomp.so.1 \
@@ -328,6 +330,10 @@ CMakeFiles/cutefish-screenshot.dir/cutefish-screenshot_autogen/EWIEGA46WW/qrc_qm
 /usr/lib/libproxy/libpxbackend-1.0.so:
 
 /usr/lib/libgobject-2.0.so.0:
+
+/usr/lib32/libbrotlienc.so.1:
+
+/usr/lib/libbrotlienc.so.1:
 
 /usr/lib32/libicudata.so.78:
 

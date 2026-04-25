@@ -442,8 +442,7 @@ CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.o: \
  /usr/include/qt6/QtCore/QProcess /usr/include/qt6/QtCore/qprocess.h \
  /usr/include/qt6/QtGui/QGuiApplication \
  /usr/include/qt6/QtQml/QQmlContext /usr/include/qt6/QtQml/qqmlcontext.h \
- /usr/include/qt6/QtGui/QScreen /usr/include/qt6/QtGui/QPixmap \
- /usr/include/qt6/QtCore/QStandardPaths \
+ /usr/include/qt6/QtGui/QScreen /usr/include/qt6/QtCore/QStandardPaths \
  /usr/include/qt6/QtCore/qstandardpaths.h \
  /usr/include/qt6/QtCore/QDateTime \
  /usr/include/qt6/QtDBus/QDBusConnection \

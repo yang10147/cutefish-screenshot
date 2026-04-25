@@ -4,12 +4,12 @@
 <context>
     <name>ScreenshotView</name>
     <message>
-        <location filename="../src/screenshotview.cpp" line="170"/>
+        <location filename="../src/screenshotview.cpp" line="193"/>
         <source>The picture has been saved to %1</source>
         <translation>Obraz został zapisany do %1</translation>
     </message>
     <message>
-        <location filename="../src/screenshotview.cpp" line="202"/>
+        <location filename="../src/screenshotview.cpp" line="225"/>
         <source>The picture has been saved to the clipboard</source>
         <translation>Obraz został zapisany do schowka</translation>
     </message>

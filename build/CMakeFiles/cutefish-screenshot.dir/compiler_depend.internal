@@ -3,8 +3,8 @@
 
 /home/yong/cutefish-screenshot/build/cutefish-screenshot_autogen/timestamp
  /home/yong/cutefish-screenshot/CMakeLists.txt
- /home/yong/cutefish-screenshot/build/CMakeFiles/4.3.1/CMakeCXXCompiler.cmake
- /home/yong/cutefish-screenshot/build/CMakeFiles/4.3.1/CMakeSystem.cmake
+ /home/yong/cutefish-screenshot/build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake
+ /home/yong/cutefish-screenshot/build/CMakeFiles/4.3.2/CMakeSystem.cmake
  /home/yong/cutefish-screenshot/build/cutefish-screenshot_autogen/moc_predefs.h
  /home/yong/cutefish-screenshot/qml.qrc
  /home/yong/cutefish-screenshot/src/main.cpp
@@ -3312,7 +3312,6 @@ CMakeFiles/cutefish-screenshot.dir/src/screenshotview.cpp.o
  /usr/include/qt6/QtGui/QGuiApplication
  /usr/include/qt6/QtGui/QImage
  /usr/include/qt6/QtGui/QMatrix4x4
- /usr/include/qt6/QtGui/QPixmap
  /usr/include/qt6/QtGui/QScreen
  /usr/include/qt6/QtGui/QTransform
  /usr/include/qt6/QtGui/qbitmap.h
@@ -3440,6 +3439,7 @@ cutefish-screenshot
  /usr/lib/libblkid.so.1
  /usr/lib/libbrotlicommon.so.1
  /usr/lib/libbrotlidec.so.1
+ /usr/lib/libbrotlienc.so.1
  /usr/lib/libbz2.so.1.0
  /usr/lib/libc.so.6
  /usr/lib/libc_nonshared.a
@@ -3497,6 +3497,7 @@ cutefish-screenshot
  /usr/lib32/libXau.so.6
  /usr/lib32/libXdmcp.so.6
  /usr/lib32/libbrotlicommon.so.1
+ /usr/lib32/libbrotlienc.so.1
  /usr/lib32/libbz2.so.1.0
  /usr/lib32/libcom_err.so.2
  /usr/lib32/libcurl.so.4

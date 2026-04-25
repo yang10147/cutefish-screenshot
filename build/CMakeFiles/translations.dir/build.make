@@ -343,6 +343,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/lib/qt6/bin/lrelease /home/yong/cutefish-screenshot/translations/zh_Hant_HK.ts -qm /home/yong/cutefish-screenshot/build/zh_Hant_HK.qm
 
 .lupdate/translations/ar_AA.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/ar_AA.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/ar_AA.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/ar_AA.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/ar_AA.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -358,6 +359,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/ar_AA.ts.stamp
 
 .lupdate/translations/az_AZ.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/az_AZ.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/az_AZ.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/az_AZ.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/az_AZ.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -373,6 +375,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/az_AZ.ts.stamp
 
 .lupdate/translations/be_BY.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/be_BY.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/be_BY.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/be_BY.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/be_BY.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -388,6 +391,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/be_BY.ts.stamp
 
 .lupdate/translations/be_Latn.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/be_Latn.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/be_Latn.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/be_Latn.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/be_Latn.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -403,6 +407,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/be_Latn.ts.stamp
 
 .lupdate/translations/bg_BG.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/bg_BG.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/bg_BG.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/bg_BG.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/bg_BG.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -418,6 +423,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/bg_BG.ts.stamp
 
 .lupdate/translations/bn_BD.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/bn_BD.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/bn_BD.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/bn_BD.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/bn_BD.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -433,6 +439,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/bn_BD.ts.stamp
 
 .lupdate/translations/bs_BA.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/bs_BA.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/bs_BA.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/bs_BA.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/bs_BA.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -448,6 +455,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/bs_BA.ts.stamp
 
 .lupdate/translations/cs_CZ.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/cs_CZ.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/cs_CZ.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/cs_CZ.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/cs_CZ.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -463,6 +471,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/cs_CZ.ts.stamp
 
 .lupdate/translations/da_DK.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/da_DK.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/da_DK.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/da_DK.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/da_DK.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -478,6 +487,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/da_DK.ts.stamp
 
 .lupdate/translations/de_DE.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/de_DE.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/de_DE.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/de_DE.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/de_DE.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -493,6 +503,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/de_DE.ts.stamp
 
 .lupdate/translations/en_US.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/en_US.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/en_US.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/en_US.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/en_US.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -508,6 +519,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/en_US.ts.stamp
 
 .lupdate/translations/eo_XX.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/eo_XX.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/eo_XX.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/eo_XX.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/eo_XX.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -523,6 +535,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/eo_XX.ts.stamp
 
 .lupdate/translations/es_ES.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/es_ES.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/es_ES.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/es_ES.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/es_ES.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -538,6 +551,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/es_ES.ts.stamp
 
 .lupdate/translations/es_MX.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/es_MX.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/es_MX.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/es_MX.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/es_MX.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -553,6 +567,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/es_MX.ts.stamp
 
 .lupdate/translations/fa_IR.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/fa_IR.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/fa_IR.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/fa_IR.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/fa_IR.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -568,6 +583,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/fa_IR.ts.stamp
 
 .lupdate/translations/fi_FI.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/fi_FI.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/fi_FI.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/fi_FI.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/fi_FI.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -583,6 +599,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/fi_FI.ts.stamp
 
 .lupdate/translations/fr_FR.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/fr_FR.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/fr_FR.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/fr_FR.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/fr_FR.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -598,6 +615,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/fr_FR.ts.stamp
 
 .lupdate/translations/got.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/got.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/got.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/got.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/got.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -613,6 +631,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/got.ts.stamp
 
 .lupdate/translations/he_IL.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/he_IL.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/he_IL.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/he_IL.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/he_IL.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -628,6 +647,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/he_IL.ts.stamp
 
 .lupdate/translations/hi_IN.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/hi_IN.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/hi_IN.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/hi_IN.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/hi_IN.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -643,6 +663,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/hi_IN.ts.stamp
 
 .lupdate/translations/hr_HR.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/hr_HR.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/hr_HR.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/hr_HR.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/hr_HR.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -658,6 +679,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/hr_HR.ts.stamp
 
 .lupdate/translations/hu_HU.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/hu_HU.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/hu_HU.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/hu_HU.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/hu_HU.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -673,6 +695,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/hu_HU.ts.stamp
 
 .lupdate/translations/id_ID.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/id_ID.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/id_ID.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/id_ID.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/id_ID.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -688,6 +711,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/id_ID.ts.stamp
 
 .lupdate/translations/ie.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/ie.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/ie.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/ie.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/ie.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -703,6 +727,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/ie.ts.stamp
 
 .lupdate/translations/it_IT.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/it_IT.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/it_IT.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/it_IT.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/it_IT.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -718,6 +743,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/it_IT.ts.stamp
 
 .lupdate/translations/ja_JP.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/ja_JP.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/ja_JP.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/ja_JP.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/ja_JP.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -733,6 +759,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/ja_JP.ts.stamp
 
 .lupdate/translations/lt_LT.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/lt_LT.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/lt_LT.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/lt_LT.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/lt_LT.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -748,6 +775,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/lt_LT.ts.stamp
 
 .lupdate/translations/lv_LV.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/lv_LV.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/lv_LV.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/lv_LV.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/lv_LV.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -763,6 +791,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/lv_LV.ts.stamp
 
 .lupdate/translations/mg.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/mg.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/mg.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/mg.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/mg.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -778,6 +807,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/mg.ts.stamp
 
 .lupdate/translations/ml_IN.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/ml_IN.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/ml_IN.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/ml_IN.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/ml_IN.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -793,6 +823,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/ml_IN.ts.stamp
 
 .lupdate/translations/nb_NO.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/nb_NO.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/nb_NO.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/nb_NO.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/nb_NO.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -808,6 +839,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/nb_NO.ts.stamp
 
 .lupdate/translations/ne_NP.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/ne_NP.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/ne_NP.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/ne_NP.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/ne_NP.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -823,6 +855,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/ne_NP.ts.stamp
 
 .lupdate/translations/nl_NL.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/nl_NL.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/nl_NL.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/nl_NL.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/nl_NL.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -838,6 +871,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/nl_NL.ts.stamp
 
 .lupdate/translations/pl_PL.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/pl_PL.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/pl_PL.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/pl_PL.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/pl_PL.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -853,6 +887,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/pl_PL.ts.stamp
 
 .lupdate/translations/pt_BR.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/pt_BR.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/pt_BR.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/pt_BR.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/pt_BR.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -868,6 +903,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/pt_BR.ts.stamp
 
 .lupdate/translations/pt_PT.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/pt_PT.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/pt_PT.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/pt_PT.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/pt_PT.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -883,6 +919,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/pt_PT.ts.stamp
 
 .lupdate/translations/ro_RO.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/ro_RO.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/ro_RO.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/ro_RO.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/ro_RO.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -898,6 +935,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/ro_RO.ts.stamp
 
 .lupdate/translations/ru_RU.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/ru_RU.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/ru_RU.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/ru_RU.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/ru_RU.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -913,6 +951,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/ru_RU.ts.stamp
 
 .lupdate/translations/si_LK.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/si_LK.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/si_LK.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/si_LK.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/si_LK.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -928,6 +967,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/si_LK.ts.stamp
 
 .lupdate/translations/sk_SK.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/sk_SK.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/sk_SK.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/sk_SK.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/sk_SK.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -943,6 +983,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/sk_SK.ts.stamp
 
 .lupdate/translations/so.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/so.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/so.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/so.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/so.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -958,6 +999,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/so.ts.stamp
 
 .lupdate/translations/sr_RS.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/sr_RS.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/sr_RS.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/sr_RS.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/sr_RS.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -973,6 +1015,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/sr_RS.ts.stamp
 
 .lupdate/translations/sv_SE.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/sv_SE.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/sv_SE.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/sv_SE.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/sv_SE.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -988,6 +1031,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/sv_SE.ts.stamp
 
 .lupdate/translations/sw.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/sw.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/sw.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/sw.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/sw.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1003,6 +1047,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/sw.ts.stamp
 
 .lupdate/translations/ta_IN.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/ta_IN.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/ta_IN.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/ta_IN.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/ta_IN.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1018,6 +1063,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/ta_IN.ts.stamp
 
 .lupdate/translations/tg_TJ.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/tg_TJ.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/tg_TJ.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/tg_TJ.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/tg_TJ.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1033,6 +1079,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/tg_TJ.ts.stamp
 
 .lupdate/translations/tr_TR.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/tr_TR.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/tr_TR.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/tr_TR.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/tr_TR.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1048,6 +1095,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/tr_TR.ts.stamp
 
 .lupdate/translations/tt_RU.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/tt_RU.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/tt_RU.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/tt_RU.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/tt_RU.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1063,6 +1111,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/tt_RU.ts.stamp
 
 .lupdate/translations/tzm.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/tzm.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/tzm.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/tzm.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/tzm.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1078,6 +1127,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/tzm.ts.stamp
 
 .lupdate/translations/uk_UA.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/uk_UA.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/uk_UA.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/uk_UA.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/uk_UA.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1093,6 +1143,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/uk_UA.ts.stamp
 
 .lupdate/translations/uz_UZ.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/uz_UZ.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/uz_UZ.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/uz_UZ.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/uz_UZ.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1108,6 +1159,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/uz_UZ.ts.stamp
 
 .lupdate/translations/vi_VN.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/vi_VN.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/vi_VN.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/vi_VN.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/vi_VN.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1123,6 +1175,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/vi_VN.ts.stamp
 
 .lupdate/translations/zh_CN.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/zh_CN.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/zh_CN.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/zh_CN.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/zh_CN.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1138,6 +1191,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/zh_CN.ts.stamp
 
 .lupdate/translations/zh_Hant.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/zh_Hant.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/zh_Hant.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/zh_Hant.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/zh_Hant.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
@@ -1153,6 +1207,7 @@ zh_Hant_HK.qm: .lupdate/translations/zh_Hant_HK.ts.stamp
 	/usr/bin/cmake -E touch /home/yong/cutefish-screenshot/build/.lupdate/translations/zh_Hant.ts.stamp
 
 .lupdate/translations/zh_Hant_HK.ts.stamp: CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+.lupdate/translations/zh_Hant_HK.ts.stamp: CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 .lupdate/translations/zh_Hant_HK.ts.stamp: cutefish-screenshot_autogen/EWIEGA46WW/qrc_qml.cpp
 .lupdate/translations/zh_Hant_HK.ts.stamp: cutefish-screenshot_autogen/UVLADIE3JM/moc_screenshotview.cpp
 .lupdate/translations/zh_Hant_HK.ts.stamp: cutefish-screenshot_autogen/moc_predefs.h
